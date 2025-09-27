@@ -105,6 +105,13 @@ public class MusicOrganizer
         foundTrack = false;
     }        
 
+    public void playTrackList(String trackList)
+    {
+        for(Track track : trackList) {
+        
+        }
+    }
+    
     /**
      * Remove a file from the collection.
      * @param index The index of the file to be removed.
